@@ -16,6 +16,7 @@ export class FormUserDetails extends Component {
         <React.Fragment>
           <AppBar title="Enter User Details" />
           <TextField
+            required={true}
             hintText="Enter Your First Name"
             floatingLabelText="First Name"
             onChange={handleChange("firstName")}
